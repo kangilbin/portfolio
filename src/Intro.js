@@ -126,7 +126,7 @@ const id = open ? 'simple-popover' : undefined;
                                     borderBottomRightRadius: 4,
                                     display: 'block',
                                     width: '70%'
-                                }}></img>
+                                }} alt = "img notion storge"></img>
                             </Popover>
                              </Grid>
                         </ListItem>
