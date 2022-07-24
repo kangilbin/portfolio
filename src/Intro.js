@@ -35,10 +35,10 @@ const id = open ? 'simple-popover' : undefined;
     <Grid container spacing={2}>
         <Grid item xs={12}>
             <Alert icon={false} severity="success">
-                <Typography  align="right" variant="h6" sx={{ fontWeight: "bold" }}>"MAU를 30%이상 끌어올린, 사용자 관점에서 개발하는 개발자 강일빈입니다."</Typography>
+                <Typography variant="h6" sx={{ fontWeight: "bold" }}>"MAU를 30%이상 끌어올린, 사용자 관점에서 개발하는 개발자 강일빈입니다."</Typography>
             </Alert>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={12} md={6}>
               <Item elevation={10}>
                   <List>
                     <ListItem>
@@ -61,7 +61,7 @@ const id = open ? 'simple-popover' : undefined;
                 </List>
             </Item>
           </Grid>
-          <Grid item xs={6}>
+          <Grid item xs={12} md={6}>
               <Grid>
                 <Item elevation={10}>
                       <List>
@@ -93,7 +93,7 @@ const id = open ? 'simple-popover' : undefined;
                       </ListItem>
                       <Divider variant="inset" component="li" />
                       <ListItem>
-                      <Grid item xs={2}><Typography gutterBottom variant="bodoy1" component="div" sx={{ fontWeight: "bold" }}>● Git ▶&nbsp;</Typography></Grid>
+                      <Grid item xs={4}><Typography gutterBottom variant="bodoy1" component="div" sx={{ fontWeight: "bold" }}>● Git ▶&nbsp;</Typography></Grid>
                       <Grid item xs={2}><Link
                             component="button"
                             variant="body2"
@@ -106,7 +106,7 @@ const id = open ? 'simple-popover' : undefined;
                           </Link></Grid>
                       </ListItem>
                         <ListItem>
-                            <Grid item xs={2}><Typography gutterBottom variant="bodoy1" component="div" sx={{ fontWeight: "bold" }}>● Notion ▶&nbsp;</Typography></Grid>
+                          <Grid item xs={4}><Typography gutterBottom variant="bodoy1" component="div" sx={{ fontWeight: "bold" }}>● Notion ▶&nbsp;</Typography></Grid>
                           <Grid item xs={2}>
                             <Button aria-describedby={id} variant="outlined" color="secondary"onClick={handleClick}>
                                 Notion Storage

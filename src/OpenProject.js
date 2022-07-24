@@ -68,7 +68,7 @@ const OpenProject = ({id, handleClose}) => {
             <DialogContent dividers>
             <Swiper
                 style={{
-                    width: "400px",
+                    width: "100%",
                     height: "720px",
                     borderRadius: "12px",
                 }}
@@ -113,7 +113,7 @@ const OpenProject = ({id, handleClose}) => {
         <DialogContent dividers>
         <Swiper
                 style={{
-                    width: "400px",
+                    width: "100%",
                     height: "760px",
                     borderRadius: "12px",
                 }}
@@ -138,7 +138,7 @@ const OpenProject = ({id, handleClose}) => {
             </DialogContent>
             <DialogActions>
                 <List>
-                    <ListItem><Typography gutterBottom width={400} sx={{ fontWeight: "bold" }}>◆ 효율적인 직원관리 서비스 ◆</Typography></ListItem>
+                    <ListItem><Typography gutterBottom sx={{ fontWeight: "bold" }}>◆ 효율적인 직원관리 서비스 ◆</Typography></ListItem>
                     <ListItem><Typography gutterBottom variant="body2" sx={{ fontWeight: "bold" }}>- 직원 등록 개발</Typography></ListItem>
                     <ListItem><Typography gutterBottom variant="body2" sx={{ fontWeight: "bold" }}>- 상세보기 / 휴직 등록 / 퇴사 등록 개발</Typography></ListItem>
                     <ListItem><Typography gutterBottom variant="body2" sx={{ fontWeight: "bold" }}>- 입사서류(근로계약서, 보건증 등) 등록 개발</Typography></ListItem>
@@ -158,7 +158,7 @@ const OpenProject = ({id, handleClose}) => {
         <DialogContent dividers>
         <Swiper
                 style={{
-                    width: "400px",
+                    width: "100%",
                     height: "760px",
                     borderRadius: "12px",
                 }}
@@ -183,7 +183,7 @@ const OpenProject = ({id, handleClose}) => {
             </DialogContent>
             <DialogActions>
                 <List>
-                    <ListItem><Typography gutterBottom width={400} sx={{ fontWeight: "bold" }}>◆ 사용자들의 사용성을 고려한 메뉴관리 서비스 ◆</Typography></ListItem>
+                    <ListItem><Typography gutterBottom sx={{ fontWeight: "bold" }}>◆ 사용자들의 사용성을 고려한 메뉴관리 서비스 ◆</Typography></ListItem>
                     <ListItem><Typography gutterBottom variant="body2" sx={{ fontWeight: "bold" }}>- 전체 메뉴 개발</Typography></ListItem>
                     <ListItem><Typography gutterBottom variant="body2" sx={{ fontWeight: "bold" }}>- 매출(증빙 자료) 수집 / 연결 관리 개발</Typography></ListItem>
                     <ListItem><Typography gutterBottom variant="body2" sx={{ fontWeight: "bold" }}>- 홈택스 계정 관리 개발</Typography></ListItem>
@@ -202,7 +202,7 @@ const OpenProject = ({id, handleClose}) => {
             <DialogContent dividers>
             <Swiper
                 style={{
-                    width: "400px",
+                    width: "100%",
                     height: "760px",
                     borderRadius: "12px",
                 }}
@@ -225,9 +225,9 @@ const OpenProject = ({id, handleClose}) => {
                 )}  
             </Swiper>
             </DialogContent>
-            <DialogActions>
-                <List>
-                    <ListItem><Typography gutterBottom width={400} sx={{ fontWeight: "bold" }}>◆ 앱 설정 서비스 ◆</Typography></ListItem>
+            <DialogActions sx={{justifyContent: 'center'}}>
+                <List >
+                    <ListItem><Typography gutterBottom sx={{ fontWeight: "bold" }}>◆ 앱 설정 서비스 ◆</Typography></ListItem>
                     <ListItem><Typography gutterBottom variant="body2" sx={{ fontWeight: "bold" }}>- 공동인증서 관리 개발</Typography></ListItem>
                     <ListItem><Typography gutterBottom variant="body2" sx={{ fontWeight: "bold" }}>- 매출/지출 용도 설정 개발</Typography></ListItem>
                     <ListItem><Typography gutterBottom variant="body2" sx={{ fontWeight: "bold" }}>- 알림 설정 개발</Typography></ListItem>
@@ -244,7 +244,7 @@ const OpenProject = ({id, handleClose}) => {
             <DialogContent dividers>
             <Swiper
                 style={{
-                    width: "400px",
+                    width: "100%",
                     height: "700px",
                     borderRadius: "12px",
                 }}
@@ -268,9 +268,9 @@ const OpenProject = ({id, handleClose}) => {
             </Swiper>
             <Typography gutterBottom variant="overline" sx={{ fontWeight: "bold" }}>* 해당 내용은 책을 보고 공부한 클론코딩 입니다.</Typography>
             </DialogContent>
-            <DialogActions>
+            <DialogActions sx={{justifyContent: 'center'}}>
                 <List>
-                    <ListItem><Typography gutterBottom width={400} sx={{ fontWeight: "bold" }}>◆ 미세먼지 앱 ◆</Typography></ListItem>
+                    <ListItem><Typography gutterBottom sx={{ fontWeight: "bold" }}>◆ 미세먼지 앱 ◆</Typography></ListItem>
                     <ListItem><Typography gutterBottom variant="body2" sx={{ fontWeight: "bold" }}>구글 API를 활용하여 위도와 경도를 가져와 미세먼지 농도를<br/> 측정하는 서비스 입니다.</Typography></ListItem>
                     <ListItem><Typography gutterBottom variant="body2" sx={{ fontWeight: "bold" }}>- Notion ▶ &nbsp;</Typography>
                     <Link
@@ -318,7 +318,7 @@ const OpenProject = ({id, handleClose}) => {
             <DialogContent dividers>
             <Swiper
                 style={{
-                    width: "370px",
+                    width: "100%",
                     height: "550px",
                     borderRadius: "12px",
                 }}
@@ -342,9 +342,9 @@ const OpenProject = ({id, handleClose}) => {
             </Swiper>
             <Typography gutterBottom variant="overline" sx={{ fontWeight: "bold" }}>* 해당 내용은 책을 보고 공부한 클론코딩 입니다.</Typography>
             </DialogContent>
-            <DialogActions>
+            <DialogActions >
                 <List>
-                    <ListItem><Typography gutterBottom width={400} sx={{ fontWeight: "bold" }}>◆ Todo List ◆</Typography></ListItem>
+                    <ListItem><Typography gutterBottom sx={{ fontWeight: "bold" }}>◆ Todo List ◆</Typography></ListItem>
                     <ListItem><Typography gutterBottom variant="body2" sx={{ fontWeight: "bold" }}>스프링 부트를 사용한 백엔드를 구축하고, 프론트엔드는 React로 구현하여 <br/>RESTful API 통신 방법으로 데이터를 주고받는 Todo List 서비스 입니다.</Typography></ListItem>
                     <ListItem><Typography gutterBottom variant="body2" sx={{ fontWeight: "bold" }}>- Notion ▶ &nbsp;</Typography>
                     <Link
