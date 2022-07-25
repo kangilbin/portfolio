@@ -18,12 +18,12 @@ const TopBar = ({tab, setTab}) => {
         textColor="secondary"
         indicatorColor="secondary"
       >
-        <Tab value="prf" label="PROFILE" sx={{ width: '16%', height: 80 }} />
-        <Tab value="all" label="ALL PROJECT" sx={{ width: '16%', height: 80 }} />
-        <Tab value="work" label="WORK PROJECT" sx={{ width: '17%', height: 80 }} />
+        <Tab value="prf" label="PROFILE" sx={{ width: '25%', height: 80 }} />
+        <Tab value="all" label="ALL PROJECT" sx={{ width: '25%', height: 80 }} />
+        <Tab value="work" label="WORK PROJECT" sx={{ width: '25%', height: 80 }} />
         {/* <Tab value="team" label="TEAM PROJECT" sx={{ width: '17%', height: 80 }} /> */}
         {/* <Tab value="personal" label="PERSONAL PROJECT" sx={{ width: '17%', height: 80 }} /> */}
-        <Tab value="clone" label="CLONE CODING" sx={{ width: '17%', height: 80 }} />
+        <Tab value="clone" label="CLONE CODING" sx={{ width: '25%', height: 80 }} />
       </Tabs>
     </Box>
   );

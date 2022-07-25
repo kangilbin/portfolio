@@ -69,7 +69,7 @@ const OpenProject = ({id, handleClose}) => {
             <Swiper
                 style={{
                     width: "100%",
-                    height: "720px",
+                    height: "100%",
                     borderRadius: "12px",
                 }}
                 spaceBetween={8}
@@ -114,7 +114,7 @@ const OpenProject = ({id, handleClose}) => {
         <Swiper
                 style={{
                     width: "100%",
-                    height: "760px",
+                    height: "100%",
                     borderRadius: "12px",
                 }}
                 spaceBetween={8}
@@ -159,7 +159,7 @@ const OpenProject = ({id, handleClose}) => {
         <Swiper
                 style={{
                     width: "100%",
-                    height: "760px",
+                    height: "100%",
                     borderRadius: "12px",
                 }}
                 spaceBetween={8}
@@ -203,7 +203,7 @@ const OpenProject = ({id, handleClose}) => {
             <Swiper
                 style={{
                     width: "100%",
-                    height: "760px",
+                    height: "100%",
                     borderRadius: "12px",
                 }}
                 spaceBetween={8}
@@ -245,7 +245,7 @@ const OpenProject = ({id, handleClose}) => {
             <Swiper
                 style={{
                     width: "100%",
-                    height: "700px",
+                    height: "100%",
                     borderRadius: "12px",
                 }}
                 spaceBetween={8}
@@ -319,7 +319,7 @@ const OpenProject = ({id, handleClose}) => {
             <Swiper
                 style={{
                     width: "100%",
-                    height: "550px",
+                    height: "100%",
                     borderRadius: "12px",
                 }}
                 spaceBetween={8}
