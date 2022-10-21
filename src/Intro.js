@@ -150,7 +150,7 @@ export default function Elevation() {
                   component="button"
                   variant="body2"
                   onClick={() => {
-                    document.location.href = "https://github.com/kangilbin";
+                    window.open("https://github.com/kangilbin");
                   }}
                   color="secondary"
                 >
@@ -174,7 +174,7 @@ export default function Elevation() {
                   component="button"
                   variant="body2"
                   onClick={() => {
-                    document.location.href = "https://cocococo.tistory.com";
+                    window.open("https://cocococo.tistory.com");
                   }}
                   color="secondary"
                 >

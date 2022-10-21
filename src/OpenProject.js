@@ -180,8 +180,9 @@ const OpenProject = ({ id, handleClose }) => {
               component="button"
               variant="body2"
               onClick={() => {
-                document.location.href =
-                  "https://github.com/kangilbin/React.js/tree/master/reactTS_crypto_tracker";
+                window.open(
+                  "https://github.com/kangilbin/React.js/tree/master/reactTS_crypto_tracker"
+                );
               }}
               color="secondary"
             >
@@ -644,8 +645,9 @@ const OpenProject = ({ id, handleClose }) => {
               component="button"
               variant="body2"
               onClick={() => {
-                document.location.href =
-                  "https://river-wool-113.notion.site/API-a4819e90341b49b789a56a7aa2611edc";
+                window.open(
+                  "https://river-wool-113.notion.site/API-a4819e90341b49b789a56a7aa2611edc"
+                );
               }}
               color="secondary"
             >
@@ -656,8 +658,9 @@ const OpenProject = ({ id, handleClose }) => {
               component="button"
               variant="body2"
               onClick={() => {
-                document.location.href =
-                  "https://river-wool-113.notion.site/AdMob-9a8e76acfcfc45f1b137b58cea3b280e";
+                window.open(
+                  "https://river-wool-113.notion.site/AdMob-9a8e76acfcfc45f1b137b58cea3b280e"
+                );
               }}
               color="secondary"
             >
@@ -669,8 +672,9 @@ const OpenProject = ({ id, handleClose }) => {
               component="button"
               variant="body2"
               onClick={() => {
-                document.location.href =
-                  "https://river-wool-113.notion.site/13cf676a861043f4b2ad0f0844ecefa7";
+                window.open(
+                  "https://river-wool-113.notion.site/13cf676a861043f4b2ad0f0844ecefa7"
+                );
               }}
               color="secondary"
             >
@@ -784,8 +788,9 @@ const OpenProject = ({ id, handleClose }) => {
               component="button"
               variant="body2"
               onClick={() => {
-                document.location.href =
-                  "https://river-wool-113.notion.site/REST-API-252dbfff14ec4ca0939cd9af81be5be6";
+                window.open(
+                  "https://river-wool-113.notion.site/REST-API-252dbfff14ec4ca0939cd9af81be5be6"
+                );
               }}
               color="secondary"
             >
@@ -796,8 +801,9 @@ const OpenProject = ({ id, handleClose }) => {
               component="button"
               variant="body2"
               onClick={() => {
-                document.location.href =
-                  "https://river-wool-113.notion.site/REST-Security-ab34319132ea48a3bae6b035018a5522";
+                window.open(
+                  "https://river-wool-113.notion.site/REST-Security-ab34319132ea48a3bae6b035018a5522"
+                );
               }}
               color="secondary"
             >
@@ -808,8 +814,9 @@ const OpenProject = ({ id, handleClose }) => {
               component="button"
               variant="body2"
               onClick={() => {
-                document.location.href =
-                  "https://river-wool-113.notion.site/fetch-API-d458e2c053c04392a091a6f012480d9b";
+                window.open(
+                  "https://river-wool-113.notion.site/fetch-API-d458e2c053c04392a091a6f012480d9b"
+                );
               }}
               color="secondary"
             >
